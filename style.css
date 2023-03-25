@@ -1,0 +1,58 @@
+ul, li{
+    margin:0;
+    padding:0;
+}
+
+
+
+
+ul{
+    list-style: none;
+    width: 100%;
+}
+
+li{
+    float: left;
+    width: auto;
+}
+
+a{
+    background:rgb(255, 15, 15) ;
+color: beige;
+display: block;
+font:bold 13px sans-serif;
+padding: 10px 25px;
+text-align: center;
+text-decoration: none;
+}
+
+li:hover a{
+    background: #000000;
+}
+
+img{
+    width: 1000px;
+    height: 500px;
+    margin: 15px;
+    background-color: beige;
+    border-radius: 40px 0 40px 0;
+    box-shadow: 3px 3px 12px 1px white;
+    border: 1px solid pink;
+}
+
+img:hover{
+    box-shadow: 3px 3px 12px 1px red;
+}
+
+body{
+    background-color: rgb(208, 255, 0);
+}
+
+.textStyle{
+color: blue;
+font-size: 50px;
+}
+#unicTextStyle{
+    color: green;
+    font-size: 150px;
+}
